@@ -1,0 +1,14 @@
+body > .container {
+    min-height: calc(100vh - 112px);
+}
+
+@media (max-width: 576px) {
+
+    .jumbotron > .container > .row > .col-lg-3 {
+        display: none;
+    }
+
+    .jumbotron {
+        width: 100% !important;
+    }
+}
